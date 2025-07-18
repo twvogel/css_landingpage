@@ -1,0 +1,136 @@
+* { font-family: Roboto;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+header {
+    display:flex;
+    justify-content:space-between;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px 20px;
+    }
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.hero {
+    display:flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;
+
+}
+
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.headline {
+    padding-bottom: 50px;
+}
+
+
+
+.secondsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:75px 0px;
+}
+
+.secondinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+
+.cars {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 200px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-right: 100px;
+}
+
+.thirdsection {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 0px;
+}
+
+
+.author {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.fourthsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.callaction {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 30px;
+    gap: 10px;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    padding: 2px 25px;
+
+
+}
+
